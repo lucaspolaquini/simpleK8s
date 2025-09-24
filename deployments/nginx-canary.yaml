@@ -28,4 +28,4 @@ spec:
       volumes:
         - name: html
           configMap:
-            name: nginx-v2-config
+            name: nginx-v1-config

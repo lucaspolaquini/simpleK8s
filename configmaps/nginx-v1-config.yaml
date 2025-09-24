@@ -4,8 +4,12 @@ metadata:
   name: nginx-v1-config
 data:
   index.html: |
+    <!DOCTYPE html>
     <html>
       <body>
-        <h1>Versão 1.0.0</h1>
+        <div class="container">
+          <h1>Bem-vindo ao Kubernetes Demo!</h1>
+          <div class="version">Versao 1.0.0 (Blue)</div>
+        </div>
       </body>
     </html>
